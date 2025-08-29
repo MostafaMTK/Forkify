@@ -2,14 +2,15 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipes App",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Mostafa Mohammed",
   "license": "ISC",
   "dependencies": {
-    "core-js": "^3.45.0",
+    "core-js": "^3.6.5",
     "fracty": "^1.0.12",
     "regenerator-runtime": "^0.14.1"
   },
